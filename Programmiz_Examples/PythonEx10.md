@@ -57,3 +57,33 @@ Now this is interesting, because it can be solved with the consequences of the i
   Root is: 2.8284271247461903
   ```
 </details>
+
+## Q4: Area of a Triangle!
+Gotta love two-line solutions.
+<details>
+
+  ``` python
+  triangleArea = lambda x, y: print(f"\nHalf of a rectangular area is a triangular area.\n0.5 * {x} * {y} = {0.5*int(x)*int(y)}")
+  triangleArea(input("Enter height of triangle (1/2): "), input("Enter width of triangle (2/2): "))
+  ```
+  Okay. Code's getting a bit longer... maybe I should consider spacing things out. I will admit my testing field here is the products I can mentally compute in half.<br><br>
+  But, that is more or less a literal interpretation for `1/2 of (b)(h)`
+
+  ``` shell
+  =====TEST 1=====
+  Enter height of triangle (1/2): 4
+  Enter width of triangle (2/2): 4
+  
+  Half of a rectangular area is a triangular area.
+  0.5 * 4 * 4 = 8.0
+
+  =====TEST 2=====
+  Enter height of triangle (1/2): 2
+  Enter width of triangle (2/2): 4
+  
+  Half of a rectangular area is a triangular area.
+  0.5 * 2 * 4 = 4.0
+  ```
+</details>
+
+## Q5: The Quadratic Equation!
