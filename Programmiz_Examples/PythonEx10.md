@@ -35,3 +35,25 @@ Also simple, but we'll use lambda traditionally :p
   1 + 2 = 3
   ```
 </details>
+
+## Q3: Find the Square Root!
+Now this is interesting, because it can be solved with the consequences of the index laws.
+<details>
+
+  ``` python
+  squareRoot = lambda x: print("Root is:", int(x)**0.5)
+  squareRoot(input("Present an integer for its square root: "))
+  ```
+  The exponent operator in python is `**`, which like many operators, is not limited to integers. The opposite of a square number is found by the inverse of `2`, which leads us to `x^0.5`. <br><br>
+  Something important to mention here is that I mistakenly started coding with a fraction, `1/2`. This is itself an operation! The rules of PEMDAS/BIDMAS still boggle me in little ways, it seems. Moral of the story: Fraction bad, Decimal gooood<br>
+
+  ``` shell
+  =====TEST 1=====
+  Present an integer for its square root: 16
+  Root is: 4.0
+
+  =====TEST 2=====
+  Present an integer for its square root: 8
+  Root is: 2.8284271247461903
+  ```
+</details>
